@@ -10,3 +10,6 @@ alert( alert(1) || 2 || alert(3) ); // alert(1)=> undefined и 2
 //=============================
 alert( 1 && null && 2 ); // null 
 
+//=============================
+alert( alert(1) && alert(2) ); // выполнит alert(1) и после выведет undefined
+
