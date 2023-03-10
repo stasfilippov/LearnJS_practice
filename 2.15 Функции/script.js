@@ -60,3 +60,18 @@ function checkAge(age) {
     return (age > 18) || confirm('Родители разрешили?');
 }
 
+// ==================== ЗАДАНИЕ №3
+//Напишите функцию min(a,b), которая возвращает меньшее из чисел a и b.
+min(2, 5) == 2
+min(3, -1) == -1
+min(1, 1) == 1
+
+function getMinNumb (a, b) {
+    if (a > b) {
+        return b;
+    } else {
+        return a;
+    }
+}
+
+console.log(getMinNumb(1, 1));
