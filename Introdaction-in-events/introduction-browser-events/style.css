@@ -1,0 +1,15 @@
+#field {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    background-color: greenyellow;
+    border: 10px solid black;
+    cursor: pointer;
+}
+
+#ball {
+    position: absolute;
+    left: 0; /* по отношению к ближайшему расположенному предку (поле) */
+    top: 0;
+    transition: 1s all; /* CSS-анимация для значений left/top делает передвижение мяча плавным */
+}
